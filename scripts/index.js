@@ -169,7 +169,21 @@ const products = [
     {Namen : "Redmi2", Brand : "xaiomi", price : 3000, color : "Black"},
 ]
 
+// filter
+// const result = products.filter(product => product.Brand === "Apple");
+// console.log (result)
+const result = products.find(product => product.price > 4000);
+console.log (result)
+// products.forEach(product => console.log(product))
+// const result = products.map(product => product.price)
+// console.log(result)
 
+// const result = products.map(product => product.Namen)
+// console.log(result)
+// const result = products.map(product => product.Brand)
+// console.log(result)
+// const result = products.map(product => product.color)
+// console.log(result)
 
 // console.log(products)
 
