@@ -94,8 +94,8 @@
 
 function sum (a, b) {
     const result = a + b;
-    console.log(result)
+    console.log(result);
 
 }
 
-sum(10, 5)
+sum(10, 5);
